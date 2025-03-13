@@ -37,6 +37,7 @@ section + section {
 
 #about p + p {
 	margin-top: 12px;
+	line-height: 160%;
 }
 
 h1 {
@@ -45,11 +46,25 @@ h1 {
 }
 
 #ingredients {
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 24px;
+}
+
+#ingredients > div {
+	display: flex;
+	align-items: center;
+	gap: 140px;
+}
+
+#ingredients img {
+	width: 150px;
+	/* margin-top: 10%; */
 }
 
 h2 {
 	font-size: 24px;
+	text-decoration: underline;
 }
 
 h1,
@@ -60,6 +75,7 @@ h2 {
 }
 
 ul {
+	/* flex: 1; */
 	padding-left: 24px;
 }
 
